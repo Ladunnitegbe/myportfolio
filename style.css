@@ -1,0 +1,150 @@
+/* font-family: 'Oxygen', sans-serif;
+font-family: 'Satisfy', cursive;
+colors  #7cfbf1
+ */
+ 
+ /* for div 1 */
+.title-block{
+background-color: #e1f7f0;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+height: 200px;
+justify-content: end;
+}
+#name{
+    color: #7cfbf1;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding: 50px;
+}
+#title{
+    font-family: 'Oxygen', sans-serif;
+    color: #7cfbf2;
+    text-align: center;
+}
+ /* for div 2 */
+.overview{
+    margin: 50px;
+    justify-content: center;
+}
+
+#profilepicture{
+    width: 300px;
+    border-radius: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+#hello{
+    color: #7cfbf2;
+    text-align: center;
+}
+
+#overview-text{
+    text-align: center;
+}
+
+#heart{
+    color: red;
+}
+
+/* for div 3 */
+#myskills{
+    color: #7cfbf2;
+    text-align: center;
+}
+.container{
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 10px;
+        margin:  10px 100px;
+}
+.pics{
+    width: 200px;
+    height: 150px;
+}
+
+#coding-pic{
+    float: left;
+    margin: 20px;
+}
+#teaching-pic{
+    float: left;
+    margin: 20px;
+}
+
+.coding-content{
+    margin-right: 200px;  
+    margin-right: 200px; 
+    text-align: justify;
+   
+}
+
+#coding-heading{
+    color: #7cfbf4;
+}
+
+.teaching-content{
+    margin-right: 200px;  
+    margin-right: 200px; 
+    text-align: justify;
+   
+}
+
+#teaching-heading{
+    color: #7cfbf4;
+}
+ /* for div 4 */
+.contant{
+    text-align: center;
+}
+
+#getintouch{
+    color: #7cfbf4;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#contactone{
+    color: #7cfbf2;
+    margin:  30px 320px;
+}
+
+#contanttwo{
+    width: 250px;
+   margin:  30px 310px;
+}
+
+#contactbtn{
+    background-color: #7cfbf3;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border-width: 0px;
+}
+/* footer */
+.footer{
+    background-color: #7cfbf0;
+    margin-top: 50px;
+   
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    margin:  0 100px;
+    padding: 20px;
+    list-style: none;
+}
+
+
+.footer-list-link{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(7, 122, 122);
+}
+
+.footnote{
+    color: #fff;
+    margin: 30px 350px;
+}
